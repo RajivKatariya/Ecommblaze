@@ -1,0 +1,16 @@
+.card{
+    padding: 0px 70px 0px 70px;
+    border: none;
+}
+.card2{
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:768px){
+    .card2{
+        display: none;
+    }
+}
