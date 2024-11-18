@@ -3,7 +3,9 @@
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    border-bottom: 1px solid #b6b3b3;
+    // border-bottom: 1px solid #b6b3b3;
+    border-bottom: var(--stroke-weight-1, 1px) solid #EEE;
+    background: #FFF;
 }
 .Location{
     border: none;
@@ -15,7 +17,10 @@
     outline: none;
     padding-left: 40px;
     height: 40px;
-    border: 1px solid #bdc5dd;
+    // border: 1px solid #bdc5dd;
+    border-radius: 12px;
+    border: var(--stroke-weight-1, 1px) solid rgba(0, 0, 0, 0.04);
+    background: #F4F6FC;
 }
 .search::placeholder{
     font-size: 12px;
