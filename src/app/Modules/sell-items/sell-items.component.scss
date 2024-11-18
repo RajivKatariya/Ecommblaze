@@ -12,6 +12,9 @@
     color: #0C8501;
     font-size: 20px;
 }
+.items p{
+    color: #817E7E;
+}
 .sell-items{
     border: 1px solid #908d8d;
     border-radius: 8px;
@@ -33,6 +36,12 @@
     padding: 5px;
     color: #0C8501;
     font-weight: 600;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    background-color: #0C8501;
+    color: #ffff;
+    border: 1px solid #e3dcdc;
 }
 .discount-price{
     color: #817E7E;
