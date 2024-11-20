@@ -45,7 +45,22 @@
     font-size: 14px;
     color: #666666;
 }
-
+.location-des{
+    display: flex;
+    align-items: center;
+    h2{
+        padding-left: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: #666666;
+        padding-left: 25px;
+    }
+    img{
+        width: 15px;
+        height: 50px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .footer{
         display: grid;
